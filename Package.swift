@@ -9,14 +9,10 @@ let package = Package(
     ],
    targets: [
          .target(
-            name: "Moya",
-            dependencies: [
-                "Alamofire",
-                "Result"]),
+            name: "Moya"),
         .target(
             name: "RxMoya",
             dependencies: [
-                "Moya",
-                "RxSwift"])
+                "Moya"])
     ]
 )
